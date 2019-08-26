@@ -4,6 +4,7 @@ ls -lrth > shell_results.txt
 ls -lrth | wc -l >> shell_results.txt
 echo "Results saved to shell_results.txt"
 cat shell_results.txt
+mkdir testing_copy
 
 for f in *.txt
 do
